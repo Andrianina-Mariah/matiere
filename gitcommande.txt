@@ -7,7 +7,7 @@ git push -u origin dev
 Ty atao in-1 refa nanokatra voalohany anle dev
 git fetch
 
-Pour vous assurer oe ao amle branche anareo foana nareo no miasa
+Pour vous assurer hoe ao amle branche anareo foana nareo no miasa
 git checkout votrenom
 
 Mi push dans votre branche (assurer vous que vous êtes dans votre branche)
@@ -28,3 +28,10 @@ git push
 de ty maka anle zavatra vita ao @ dev amzay azonareo any @ branche perso anareo ny modif nalefan'olona tao @ dev
 git checkout dev
 git pull
+
+mettre à jour ta branche perso :
+git checkout votrenom
+git merge dev
+
+verifier les branches disponibles:
+ git branch -a
