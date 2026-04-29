@@ -12,9 +12,7 @@ git push -u origin dev
 zay roa:
 git fetch
 git checkout dev
-verifier les branches disponibles:
- git branch -averifier les branches disponibles:
- git branch -a
+git pull origin dev
 git checkout -b tsiky
 
 git checkout dev
@@ -34,7 +32,7 @@ Ou en local :
 
 git checkout dev
 git pull origin dev
-git merge feature-ami1
+git merge tsiky
 git push origin dev
 
 verifier les branches disponibles:
