@@ -1,23 +1,30 @@
+Responsable
 git checkout main
 git pull origin main
 git checkout -b dev
 git push -u origin dev
 
-ty le mandefa anle travaille tao amle branche manakany am dev
+Ty atao in-1 refa nanokatra voalohany anle dev
 git fetch
-git checkout dev
-git merge kisoa-mira (anaranle branche)
-git push
 
-de ty maka anle zavatra vita ao @ dev 
-git checkout dev
-git pull
+Pour vous assurer oe ao amle branche anareo foana nareo no miasa
+git checkout votrenom
 
-Mi push
+Mi push dans votre branche (assurer vous que vous êtes dans votre branche)
 git status
 git add .
 git commit -m "message"
 git push
 
-Mi pull
+avant de mandefa zavatra ao @ dev de mi pull aloha 
+git checkout dev
+git pull
+
+ty le mandefa anle travaille tao amle branche perso manakany am dev
+git checkout dev
+git merge votrebrancheperso
+git push
+
+de ty maka anle zavatra vita ao @ dev amzay azonareo any @ branche perso anareo ny modif nalefan'olona tao @ dev
+git checkout dev
 git pull
