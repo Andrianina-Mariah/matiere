@@ -35,5 +35,13 @@ git pull origin dev
 git merge tsiky
 git push origin dev
 
+ recuperer:
+ git checkout dev
+git pull origin dev
+
+mettre à jour ta branche perso :
+git checkout mira
+git merge dev
+
 verifier les branches disponibles:
  git branch -a
