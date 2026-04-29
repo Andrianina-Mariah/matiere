@@ -1,9 +1,9 @@
 -- Création de la base de données
-CREATE DATABASE IF NOT EXISTS tp_codeigniter4_notes;
-USE tp_codeigniter4_notes;
+CREATE DATABASE IF NOT EXISTS matiere;
+USE matiere;
 
 -- 1. Table des utilisateurs (pour le Login)
-CREATE TABLE users (
+CREATE TABLE matiere_users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL, -- À hasher en PHP
@@ -11,7 +11,7 @@ CREATE TABLE users (
 );
 
 -- 2. Table des étudiants
-CREATE TABLE students (
+CREATE TABLE matiere_etudiants (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE students (
 
 -- 3. Table des matières
 -- 'is_optional' permet de gérer la règle de la meilleure note parmi les options
-CREATE TABLE subjects (
+CREATE TABLE matiere_sujets (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     semester ENUM('S3', 'S4') NOT NULL,
@@ -30,7 +30,7 @@ CREATE TABLE subjects (
 
 -- 4. Table des notes
 -- On permet plusieurs saisies pour la même matière (règle de la note MAX)
-CREATE TABLE grades (
+CREATE TABLE matiere_niveaux (
     id INT AUTO_INCREMENT PRIMARY KEY,
     student_id INT NOT NULL,
     subject_id INT NOT NULL,
