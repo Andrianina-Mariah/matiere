@@ -33,7 +33,7 @@ pour les matières optionnels, on prend la matière qui a la meilleure note
 A faire design(dans design/)
 personnaliser le thème avec le fichier SCSS fourni
 Je veux un design simple ,harmonieux et claire avec les details du relevé
-le relevé.pdf est un exemple de modèle de relevé
+le relevé.pdf est un exemple de modèle de relevé.pdf
 
 Concernant la configuration de la base, le script de sql est dans dtbs.sql donc ajoutes les modifications necessaires pour cela dans app/database/migrations et les autres fichiers de configurations:
 CREATE DATABASE bibliotheque CHARACTER SET utf8mb4 COLLATE matiere;
