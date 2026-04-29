@@ -1,0 +1,277 @@
+ERROR - 2026-04-21 12:55:10 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#7 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#6 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#7 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-21 12:55:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 12:55:18 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#7 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#6 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#7 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-21 12:55:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-21 12:55:39 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "*"
+[Method: GET, Route: Writable/logs/%2A]
+in SYSTEMPATH/Router/Router.php on line 768.
+ 1 SYSTEMPATH/Router/Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(829): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 13:01:37 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#7 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#6 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#7 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-21 13:01:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 13:01:38 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#6 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#7 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#12 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#3 /home/maria/s4/SI/CodeIgniter/system/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/maria/s4/SI/CodeIgniter/system/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+#5 /home/maria/s4/SI/CodeIgniter/app/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+#6 /home/maria/s4/SI/CodeIgniter/app/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+#7 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(951): App\Controllers\Livre->index()
+#8 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/maria/s4/SI/CodeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/maria/s4/SI/CodeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/maria/s4/SI/CodeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/maria/s4/SI/CodeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2026-04-21 13:01:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(523): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1333): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/LivreModel.php(84): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Livre.php(23): App\Models\LivreModel->getLivresPagines()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Livre->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-21 13:02:14 --> Error connecting to the database: mysqli_sql_exception: Unknown error while connecting in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query()
+#4 /home/maria/s4/SI/CodeIgniter/system/Commands/Database/ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+#5 /home/maria/s4/SI/CodeIgniter/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run()
+#6 /home/maria/s4/SI/CodeIgniter/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run()
+#7 /home/maria/s4/SI/CodeIgniter/system/Boot.php(442): CodeIgniter\CLI\Console->run()
+#8 /home/maria/s4/SI/CodeIgniter/system/Boot.php(166): CodeIgniter\Boot::runCommand()
+#9 /home/maria/s4/SI/CodeIgniter/spark(87): CodeIgniter\Boot::bootSpark()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown error while connecting in /home/maria/s4/SI/CodeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/maria/s4/SI/CodeIgniter/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query()
+#3 /home/maria/s4/SI/CodeIgniter/system/Commands/Database/ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+#4 /home/maria/s4/SI/CodeIgniter/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run()
+#5 /home/maria/s4/SI/CodeIgniter/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run()
+#6 /home/maria/s4/SI/CodeIgniter/system/Boot.php(442): CodeIgniter\CLI\Console->run()
+#7 /home/maria/s4/SI/CodeIgniter/system/Boot.php(166): CodeIgniter\Boot::runCommand()
+#8 /home/maria/s4/SI/CodeIgniter/spark(87): CodeIgniter\Boot::bootSpark()
+#9 {main}
+CRITICAL - 2026-04-21 13:02:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown error while connecting
+[Method: CLI, Route: db:table/livres]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Commands/Database/ShowTableInfo.php(121): CodeIgniter\Database\BaseConnection->listTables()
+ 4 SYSTEMPATH/CLI/Commands.php(74): CodeIgniter\Commands\Database\ShowTableInfo->run()
+ 5 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run()
+ 6 SYSTEMPATH/Boot.php(442): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand()
+ 8 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark()
+DEBUG - 2026-04-21 13:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:07:57 --> CSRF token verified.
+DEBUG - 2026-04-21 13:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:08:43 --> CSRF token verified.
+DEBUG - 2026-04-21 13:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 13:14:16 --> CSRF token verified.
+DEBUG - 2026-04-21 13:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-21 14:38:18 --> CSRF token verified.
+DEBUG - 2026-04-21 14:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 14:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-21 14:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
