@@ -25,9 +25,7 @@ git checkout dev
 git merge votrebrancheperso
 git push
 
-de ty maka anle zavatra vita ao @ dev amzay azonareo any @ branche perso anareo ny modif nalefan'olona tao @ dev
-git checkout dev
-git pull
+
 
 mettre à jour ta branche perso :
 git checkout votrenom
