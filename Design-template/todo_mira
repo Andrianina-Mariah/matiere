@@ -1,0 +1,37 @@
+App:    RELEVÉ de note
+
+Objectifs pédagogiques:
+*Integrer un design 
+*Integrer les fonctionnalités(notes S3 et S4)
+
+Technique :
+Codeigniter 4
+Mysql
+
+A faire
+login (mettre directement sur le formulaire les valeurs par défaut)
+formulaire pour ajouter une note ( on peut saisir plusieurs fois la note)
+liste étudiant
+lorsqu'on clique sur un étudiant on affiche la liste de ces notes
+S3
+S4 option dev
+S4 option bddres(base de données et réseaux)
+S4 option web
+L2 option dev
+L2 option bddres
+L2 option web
+Lien S3 et S4, affiche les notes par semestre Lien L2 , affiche toutes les notes des 2 semetres,matières et une moyenne
+(S3+S4)
+
++Page de liste des notes:
+affichant le parcours des notes, on peut supprimer 
+
+Règle de gestion
+pour une matière, on prend la note maximale
+pour les matières optionnels, on prend la matière qui a la meilleure note
+
+A faire design(dans design/)
+personnaliser le thème avec le fichier SCSS fourni
+
+Concernant la configuration de la base, le script de sql est dans dtbs.sql donc ajoutes les modifications necessaires pour cela dans app/database/migrations et les autres fichiers de configurations:
+CREATE DATABASE bibliotheque CHARACTER SET utf8mb4 COLLATE matiere;
